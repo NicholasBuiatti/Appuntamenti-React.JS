@@ -6,7 +6,7 @@ import './App.css'
 import Button from 'react-bootstrap/Button';
 function App() {
 	const [appuntamento, setAppuntamento] = useState(data);
-
+	// test commit
 	let reloded = () => setAppuntamento(data);
 	let deleteAll = () => {
 		return setAppuntamento([]);
